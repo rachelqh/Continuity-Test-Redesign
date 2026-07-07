@@ -15,7 +15,7 @@ A detailed documentation of all aspects of this project are provided in this rep
 
 - An interactive schematic viewer with screenshots of the schematics is in `/schematic`
 - An interactive layout viewer with screenshots of the layout is in `/layout`
-- Design documents are in `/docs`, and includes:
+- Design documents are in `/design`, and includes:
    - `architecture.md` explains project scope, requirements, circuit architecture and how it works
    - `design decisions.md` explains componenent & architecture selection
    - `error estimations.md` provides error estimations
