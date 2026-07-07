@@ -16,11 +16,11 @@ A detailed documentation of all aspects of this project are provided in this rep
 - An interactive schematic viewer with screenshots of the schematics is in `/schematic`
 - An interactive layout viewer with screenshots of the layout is in `/layout`
 - Design documents are in `/docs`, and includes:
-  -`architecture.md` explains project scope, requirements, circuit architecture and how it works
-  -`design decisions.md` explains componenent & architecture selection
-  -`error estimations.md` provides error estimations
+   - `architecture.md` explains project scope, requirements, circuit architecture and how it works
+   - `design decisions.md` explains componenent & architecture selection
+   - `error estimations.md` provides error estimations
 - User documents are in `/userdocuments` and includes:
-  -`usermanual.md` which provides an operator-end user manual
-  -`futureupdates.md` which provides details on how to change the board for the future. This is especailly useful for future interns/employees of PFC who would like to update the other test fixtures to use this design.
+   - `usermanual.md` which provides an operator-end user manual
+   - `futureupdates.md` which provides details on how to change the board for the future. This is especailly useful for future interns/employees of PFC who would like to update the other test fixtures to use this design.
   
 If there are any additional questions, feel free to email me at rachelq.huang@mail.utoronto.ca (or if it's been a long time and I've graduated, rachelhuang082@gmail.com).
