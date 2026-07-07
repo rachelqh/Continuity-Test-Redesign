@@ -1,31 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Continuity Test Fixture Redesign</title>
+    <title>Main Schematic</title>
 
-    .com/client/static/js/embed.js"></script>
+    <script src="https://.com/client/static/js/embed.js
 
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f5f5f5;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
+            margin-top: 0;
             text-align: center;
         }
 
-        .viewer-container {
-            max-width: 1280px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        p {
+            text-align: center;
+            color: #666;
         }
 
         .altium-ecad-viewer {
@@ -36,12 +43,26 @@
         }
     </style>
 </head>
-  
+
 <body>
-<h1>main schematic doc</h1>
-<div class="altium-ecad-viewer" data-project-token="%2Flzjy6Dkhk%2Br%2BBFAZ7IpmjMDAQ%3D%3D" data-enabled-views="SCH,BOM" data-active-view="SCH" style="border-radius: 0px 0px 4px 4px; height: 500px; border-style: solid; border-width: 1px; border-color: rgb(241, 241, 241); overflow: hidden; max-width: 1280px; max-height: 700px; box-sizing: border-box;"></div><script src="https://viewer.altium.com/client/static/js/embed.js?ver=1778589383464"></script>
+
+    <div class="container">
+
+        <h1>Main Schematic</h1>
+
+        <p>
+            Continuity Test Fixture Redesign
+        </p>
+
+        <div
+            class="altium-ecad-viewer"
+            data-project-token="%2Flzjy6Dkhk%2Br%2BBFAZ7IpmjMDAQ%3D%3D"
+            data-enabled-views="SCH,BOM"
+            data-active-view="SCH">
+        </div>
 
     </div>
 
 </body>
+
 </html>
