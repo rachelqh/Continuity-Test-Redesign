@@ -9,9 +9,11 @@ The system injects a precision current through a force path and measures the vol
 Figure 1: Functional block diagram of my test fixture circuit.
 
 A detailed documentation of all aspects of this project are provided in this repository. 
-  -An interactive schematic viewer with screenshots in /schematic
-  -An interactive layout viewer with screenshots is in /layout
-  -
+  *An interactive schematic viewer with screenshots of schematics in /schematic
+  *An interactive layout viewer with screenshots of the layout is in /layout
+  *Design Documents are in /schematic which include
+   *
+  
 
 
 
