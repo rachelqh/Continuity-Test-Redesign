@@ -20,7 +20,6 @@ A detailed documentation of all aspects of this project are provided in this rep
 - Design documents are in [/design](./design), and includes:
    - `architecture.md` explains project scope, requirements, circuit architecture and how it works
    - `design decisions.md` explains componenent & architecture selection
-   - `error estimations.md` provides error estimations
 - User documents are in [/userdocuments](./userdocuments) and includes:
    - `usermanual.md` which provides an operator-end user manual
    - `futureupdates.md` which provides details on how to change the board for the future. This is especailly useful for future interns/employees of PFC who would like to update the other test fixtures to use this design.
