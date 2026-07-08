@@ -16,6 +16,6 @@ A low leakage, low on resistance mux was chosen for the sense path because the A
 An op-amp + precision resistor system was used to create a known current source which, with the differential voltage from the two DUT pins, could be used to find resistance. This was chosen to reduce costs and operator complexity, as requiring one bench power source per test fixture would limit future scalability and increase operator complexity.
 
 ## Firmware Architecture for an Intuitive Operator Interface
-The original fixture displayed every test result as it ran, requiring the operator to continuously watch the screen to catch failures. Since results advanced automatically, failed tests could easily be missed. This design instead completes the full test sequence in under two seconds and displays only failed connections afterward, allowing the operator to review results at their own pace.
+The original fixture displayed every test result as it ran, requiring the operator to continuously watch the screen to catch failures. Since results advanced automatically, failed tests could easily be missed. This design instead completes the full test sequence in under two seconds and displays only failed connections afterward, allowing the operator to review results at their own pace. The new approach significantly saves costs on operator salary, freeing up their time to work on other, more involved tasks.
 
 
