@@ -1,5 +1,5 @@
 # Design Decisions
-This document outlines major design decisions and why they were chosen
+This document outlines major design decisions and why they were chosen.
 
 ## 4 Wire Kelvin sense
 4 Wire Kelvin sensing was chosen despite its complexity to increase accuracy and rigour. Since the board needs to measure 2ohm DUTs to 10% accuracy (0.2ohms) trace resistances, on resistances of components and other unknown resistances could easily overblow the error budget. This approach was 4 wire kelvin sensing implemented to measure the voltages as close as possible to the DUT pins.
