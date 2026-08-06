@@ -5,6 +5,7 @@ PFC has requested the Summer 2026 Interns to improve the existing test fixtures,
 
 The system injects a precision current through a force path and measures the voltage across the device under test (DUT) using a high-resolution 32-bit ADC. By applying Ohm's Law to the measured voltage and known current, the system accurately calculates trace resistance and determines continuity. This approach increases accuracy while significantly reducing the operation time.
 
+# Results
 PLACEHOLDER: PLEASE PUT THE HERO IMAGE/FINSIHED PROJECT HERE
 
 Write some stats on the success of the project
