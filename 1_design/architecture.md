@@ -18,10 +18,16 @@ The core concept of the system is essentially to inject a known current into the
 <p align = "center"><em>Figure 1: Functional block diagram of my test fixture circuit.</em></p>
 
 ## Force pathway
-The buffer op-amp uses the precise 2.5V reference pin from the ADC, along with resistors, to create a known current. Two different values of resistors, which are toggleable in code via load switches, are used for both ends of measurement to prevent the op-amp from oversaturation. A relay array is linked to the buffer op amp. A specific pair of DUTs can be connected via the relays, which are programmable via darlington transistor array.
+The buffer op-amp uses the precise 2.5V reference pin from the ADC, along with resistors, to create a known current. Two different values of resistors, which are toggleable in code via load switches, are used for both ends of measurement to prevent the op-amp from oversaturation. Two pin headers, each connected to one terminal of 13 DUTs, are linked to the output of the op amp via relay matrix, which is programmable via darlington transistor array. Therefore, a specific pair of DUTs can be chosen to have current sent through them.
+
+<img width="1130" height="692" alt="image" src="https://github.com/user-attachments/assets/d4e6c8ff-6d3a-4d04-b326-83bbf9ff86a7" />
+<p align = "center"><em>Figure 1: Schematic Visualization of the force pathway. The yellow ports represent the two ends of the DUT terminal pin headers.</em></p>
 
 ## Sense pathway
-2x 16 channel multiplexers are used to control which pair of DUTs the ADC is reading at any given time. 
+Since the force pathway has provided a known current, measuring the two terminals at the DUT pins can provide resistance. A 32-bit precision ADC is used for highly accurate resistance values, with it's differential input connected to 2x 16 channel multiplexers which are connected directly at the DUT terminals. Therefore, the sense multiplexers programmable by the MCU are can be to control which pair of DUTs the ADC is reading at any given time. 
+
+## Programmable control
+All major components are directly linked to the MCU for firmware programming. The ADC, relay drivers and sense mux are all programmed and use (custom firmware)[REPLACE LATER]. 
 
 ## Misc
 An LCD screen is used for user I/O, an ST-Link Debugger header is used for debugging/programming, and 3 LEDs are for easy power-rail checking.
