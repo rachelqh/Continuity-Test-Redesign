@@ -15,6 +15,8 @@ Write some stats on the success of the project
 A detailed documentation of all aspects of this project are provided in this repository.
 
 ## Documentation Legend
+To navigate more details on how this project was designed, please refer to the following documents:
+*Please ignore /docs. It is used to generate the interactive schematic & layout viewers and is not part of the showcase.
 
 - An interactive schematic viewer with screenshots of the schematics is in [/schematic](./schematic/)
 - An interactive layout viewer with screenshots of the layout is in [/layout](./layout)
@@ -29,4 +31,5 @@ A detailed documentation of all aspects of this project are provided in this rep
    - ST7789 LCD screen driver, which is downloaded from [Floyd-Fish on Github](https://github.com/Floyd-Fish/ST7789-STM32)
    - Custom ADC driver
    - Main continuity test circuit
+   - 
 If there are any additional questions, feel free to email me at rachelq.huang@mail.utoronto.ca (or if it's been a long time and I've graduated, rachelhuang082@gmail.com).
