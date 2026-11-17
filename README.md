@@ -1,18 +1,18 @@
 # Continuity-Test-Redesign
-The employees of the PFC Flexible Circuits has to perform thousands of continuity tests per month to ensure quality. To improve efficency, commonly produced components have unique test fixtures to probe the continuity of up to hundreds of traces quickly. 
+OSI Electronics performs thousands of continuity tests each month to ensure product quality. Existing test fixtures were slow, inefficient, and unreliable, creating an opportunity to improve testing throughput and measurement accuracy.
 
-PFC has requested the Summer 2026 Interns to improve the existing test fixtures, which are slow, inefficient, and unreliable.
+As part of the Summer 2026 internship program, I redesigned the existing continuity testing system to improve its performance and reliability.
 
-The system injects a precision current through a force path and measures the voltage across the device under test (DUT) using a high-resolution 32-bit ADC. By applying Ohm's Law to the measured voltage and known current, the system accurately calculates trace resistance and determines continuity. This approach increases accuracy while significantly reducing the operation time.
+The redesigned system uses 4-wire kelvin sensing by injecting a precision current through a force path and measuring the resulting voltage across the device under test (DUT) using a high-resolution 32-bit ADC. Using Ohm's law, the system calculates accurate trace resistance and determines continuity, enabling faster and more accurate testing across multiple traces. 
+
+The redesigned fixture was successfully received and is now under development for permanent deployment within the company.
+A detailed documentation of all aspects of this project are provided in this repository.
 
 ## Results
-PLACEHOLDER: PLEASE PUT THE HERO IMAGE/FINSIHED PROJECT HERE
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/3ce62d22-e58d-4532-9cd1-da4f7c1bc640" />
 
-Write some stats on the success of the project
-  - Decrease of time used from 2min to ~1sec, saving the company up to ____$ per year
-  - Accuracy up to ___ohms, ___%
-    
-A detailed documentation of all aspects of this project are provided in this repository.
+- Decrease of time used from 2min to ~5sec, a 95% reduction, saving the company up to 7000$ per year.
+- Accurate low-ohm measurements around the < 2ohm range.
 
 ## Documentation Legend
 To navigate more details on how this project was designed, please refer to the following documents:
